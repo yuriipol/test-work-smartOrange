@@ -1,12 +1,12 @@
 // @import url("https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Kreon:wght@300;400;500;600;700&display=swap");
 @import "./Shared/styles/index";
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
 body {
-  // background: #f6f6f6;
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Verdana", "VerdanaBold", "GothamProBold", "GothamProLight",
+    sans-serif;
 }
 h1,
 h2,

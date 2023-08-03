@@ -1,8 +1,10 @@
+import Header from "./Header/Header";
+
 function App() {
   return (
-    <>
-      <h1>polupan</h1>
-    </>
+    <div className="container">
+      <Header />
+    </div>
   );
 }
 

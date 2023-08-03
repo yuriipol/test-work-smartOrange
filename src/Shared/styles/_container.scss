@@ -12,8 +12,8 @@
     width: $tablet;
   }
   @include media-query(desktop) {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 135px;
+    padding-right: 135px;
     width: $desktop;
   }
 }

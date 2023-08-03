@@ -1,0 +1,14 @@
+@import "../../Shared/styles/index";
+.listNav {
+  display: flex;
+  align-items: center;
+}
+.listNavItem {
+  color: var(--gray-1, #333);
+  font-family: TTHoves-Regular;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.listNavItem:not(:last-child) {
+  margin-right: 60px;
+}
