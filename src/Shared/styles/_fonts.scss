@@ -1,16 +1,24 @@
 @font-face {
-  font-family: TTHoves-Regular;
-  src: url("../Fonts/TTHoves-Regular.ttf");
+  font-family: "TTHRegular";
+  font-display: swap;
+  src: url("/src/assets/fonts/TTHRegular.ttf") format("truetype");
+  font-style: normal;
 }
 @font-face {
-  font-family: "TTHoves-Bold";
-  src: url("../Fonts/TTHoves-Bold.ttf");
+  font-family: "TTHMedium";
+  font-display: swap;
+  src: url("/src/assets/fonts/TTHoves-Medium.ttf") format("truetype");
+  font-style: normal;
 }
 @font-face {
-  font-family: "TTHoves-Medium";
-  src: url("../Fonts/TTHoves-Medium.ttf");
+  font-family: "TTHLight";
+  font-display: swap;
+  src: url("/src/assets/fonts/TTHoves-Light.ttf") format("truetype");
+  font-style: normal;
 }
 @font-face {
-  font-family: "TTHoves-Light";
-  src: url("../Fonts/TTHoves-Light.ttf");
+  font-family: "TTHBold";
+  font-display: swap;
+  src: url("/src/assets/fonts/TTHoves-Bold.ttf") format("truetype");
+  font-style: normal;
 }
