@@ -1,3 +1,8 @@
+.heroContainer {
+  display: flex;
+  align-items: center;
+}
+
 .title {
   display: flex;
   flex-direction: column;
@@ -9,6 +14,7 @@
   font-weight: 300;
   line-height: 64px;
   text-transform: uppercase;
+  margin-bottom: 90px;
 }
 .title span {
   color: #333;
@@ -18,19 +24,108 @@
   font-weight: 700;
   line-height: 64px;
 }
+.arrowContainer {
+  display: flex;
+  align-items: center;
+}
 .arrow {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  cursor: pointer;
 
   width: 53px;
   height: 53px;
   border: 1px solid #f2f2f2;
   background: #fff;
 }
+.arrow:not(:last-child) {
+  margin-right: 22.94px;
+}
+
 .arrowLeft {
   width: 17.207px;
   height: 8px;
+  fill: #333333;
+  transition: all 300ms ease;
+  &:hover {
+    fill: #bdbdbd;
+    transform: scale(1.5);
+  }
+}
+.numberContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 141.879px;
+  height: 31px;
+
+  margin-top: 94px;
+}
+.numberOne,
+.numberTwo {
+  position: relative;
+  color: #bdbdbd;
+  font-family: "TTHMedium";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 100% */
+  //   width: 43.822px;
+}
+.numberOne::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Ширина псевдоэлемента на 100% ширины родительского элемента */
+  height: 100%; /* Высота псевдоэлемента на 100% высоты родительского элемента */
+  background: linear-gradient(
+    135deg,
+    transparent 49%,
+    #e0e0e0 50%,
+    #e0e0e0 51%,
+    transparent 52%
+  ); /* Градиент, создающий косую линию с уклоном влево */
+}
+.imgContainer {
+  position: relative;
+  margin-left: 122.24px;
+}
+.titleImage {
+  width: 770px;
+  height: 829px;
+  object-fit: cover;
+}
+.buttonRight {
+  display: flex;
+  align-items: center;
+
+  width: 222px;
+  height: 71px;
+
+  padding: 24px 49.66px 23px 50.34px;
+
+  position: absolute;
+  top: calc(100% - 71px);
+
+  background: #fff;
+  color: #333;
+  font-family: "TTHMedium";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px; /* 100% */
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+}
+.buttonArrowRight {
+  width: 24px;
+  height: 24px;
+  margin-left: 12px;
+
   fill: #333333;
   transition: all 300ms ease;
   &:hover {
