@@ -1,5 +1,6 @@
 import { ReactComponent as ArrowLeft } from "../../Shared/images/arrow_left.svg";
 import { ReactComponent as ArrowRight } from "../../Shared/images/arow_right.svg";
+import { ReactComponent as Line } from "../../Shared/images/Line 3.svg"
 import House from "../../Shared/images/Hero_image.png";
 import s from "./Hero.module.scss";
 
@@ -22,6 +23,7 @@ const Hero = () => {
             </div>
             <div className={s.numberContainer}>
               <p className={s.numberOne}>01</p>
+              <Line className={s.line} />
               <p className={s.numberTwo}>02</p>
             </div>
           </div>
