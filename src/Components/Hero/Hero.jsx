@@ -1,6 +1,6 @@
 import { ReactComponent as ArrowLeft } from "../../Shared/images/arrow_left.svg";
 import { ReactComponent as ArrowRight } from "../../Shared/images/arow_right.svg";
-import { ReactComponent as Line } from "../../Shared/images/Line 3.svg"
+import { ReactComponent as Line } from "../../Shared/images/Line 3.svg";
 import House from "../../Shared/images/Hero_image.png";
 import s from "./Hero.module.scss";
 
@@ -30,8 +30,10 @@ const Hero = () => {
           <div className={s.imgContainer}>
             <img src={House} alt="house" className={s.titleImage} />
             <button className={s.buttonRight}>
-              ВЗГЛЯНУТЬ
-              <ArrowRight className={s.buttonArrowRight} />
+              <div>
+                <span>ВЗГЛЯНУТЬ</span>
+                <ArrowRight className={s.buttonArrowRight} />
+              </div>
             </button>
           </div>
         </div>
