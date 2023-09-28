@@ -17,6 +17,9 @@
 
   margin-left: 330px;
 }
+.listNav:hover > :not(:hover) {
+  opacity: 0.4;
+}
 .listNavItem {
   color: #333;
   font-family: "TTHRegular";
@@ -29,6 +32,7 @@
   cursor: pointer;
 
   position: relative;
+  transition: 300ms;
 }
 .listNavItem:not(:last-child) {
   margin-right: 60px;
